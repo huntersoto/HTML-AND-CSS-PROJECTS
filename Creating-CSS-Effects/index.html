@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Creating Effects with CSS</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--NAVBAR-->
+    <nav class="nav-bar">
+        <ul>
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li class="drop">
+                <a href="#">Images</a>
+                <div class="rollover-menu">
+                    <a href="#image1">Image1</a>
+                    <a href="#image2">Image2</a>
+                    <a href="#image3">Image3</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <!--IMAGES-->
+    <section>
+        <!--IMAGE ONE-->
+        <div class="image-container" id="image1">
+            <img src="Images/IMG_2103.jpg">
+            <div class="overlay"></div>
+        </div>
+        <!--IMAGE TWO-->
+        <div class="image-container" id="image2">
+            <img src="Images/IMG_2112.jpg" class="zoom">
+        </div>
+        <!--IMAGE THREE-->
+        <div class="image-container" id="image3">
+            <div class="circle">
+                <img src="Images/IMG_2120.jpg">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-text">
+            <p>The Tech Academy &copy;</p>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -286,3 +286,12 @@ input[type="submit"]{
 input[type="submit"]:hover{
     background-color: #052133;
 }
+
+/*Updating the styling of the blockquote element that I had to add for a previous assignement. So that it is a bit more inline with the rest of the page styling*/
+blockquote{
+    color: black;
+    text-align: center;
+    font-family: "Mukta", sans-serif; /*font from fonts.google.com*/
+    text-shadow: 1px .5px 4px rgba(0, 0, 0, 0.5);
+    margin: 0px;
+}
